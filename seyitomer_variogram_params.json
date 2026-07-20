@@ -1,0 +1,51 @@
+{
+  "dataset": "Seyitomer Aslanli Lignite Field",
+  "source": "Kutahya Seker Fabrikasi A.S. (used with permission)",
+  "location": "Kutahya, Turkey",
+  "n_drillholes": 191,
+  "domain_m": "~3736 x 6511",
+  "variables": {
+    "thickness": {
+      "transform": "square root",
+      "model_type": "spherical",
+      "nugget_C0": 0.421,
+      "partial_sill_C": 0.774,
+      "range_isotropic_m": 1245,
+      "OK_reference": {
+        "LOOCV_R2": 0.387,
+        "RMSE": 0.938,
+        "MSDR": 1.155
+      },
+      "ASK_result": {
+        "alpha": 0.2,
+        "ref_scale_m": 943,
+        "LOOCV_R2": 0.398,
+        "RMSE": 0.929
+      }
+    },
+    "calorific_value": {
+      "units": "kcal/kg",
+      "model_type": "spherical",
+      "nugget_C0": 0.031,
+      "partial_sill_C": 0.774,
+      "a_min_m": 317,
+      "a_min_azimuth_deg": 0,
+      "a_max_m": 1245,
+      "a_max_azimuth_deg": 90,
+      "anisotropy_ratio": 3.93,
+      "OK_reference": {
+        "LOOCV_R2": 0.264,
+        "RMSE": 332.3,
+        "MSDR": 0.905
+      },
+      "ASK_result": {
+        "alpha": 0.005,
+        "ref_scale_m": 943,
+        "LOOCV_R2": 0.278,
+        "RMSE": 329.0
+      }
+    }
+  },
+  "LOOCV_neighbourhood": "k_NN = 15 nearest neighbours",
+  "d_max_easting_northing_m": 7087
+}

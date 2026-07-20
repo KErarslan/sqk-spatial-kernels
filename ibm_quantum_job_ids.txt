@@ -1,0 +1,22 @@
+IBM Quantum Job IDs — SQK Spatial Kernels Experiments
+=======================================================
+All experiments: Kalgoorlie Northern Zone (n=20), ibm_kingston / ibm_marrakesh / ibm_fez
+Backend: IBM Quantum Eagle r3 (156 qubits), Open Plan
+Circuit: 3 qubits, depth 1, Rx rotations
+
+SK_rx experiments (Euclidean encoding, d_max normalisation):
+  d8nsi4rnn5bs738v1rlg  |  SK_rx  |  ibm_marrakesh  |  1,024 shots
+  d8nt8mjqv2lc7389adug  |  SK_rx  |  ibm_fez        |  1,024 shots
+  d8ntk9j2d42s73ceb8l0  |  SK_rx  |  ibm_kingston   |  8,192 shots
+
+ASK experiments (anisotropic scalar kernel, rotation-based Eq. 6-7):
+  d8o3fkjqv2lc7389is20  |  ASK α=1.7  |  ibm_marrakesh  |  2,048 shots  | ENCODING ERROR (2θ instead of θ), see Supplementary S2
+  d8o3r4b2d42s73cejlcg  |  ASK α=1.7  |  ibm_kingston   |  4,096 shots  | VALID — PSD preserved (λ_min=+0.0038, R²=0.569) — June 2026
+  d9cc8kk1osis73bjm2ig  |  ASK α=2.5  |  ibm_kingston   |  4,096 shots  | FAILED — 83.7% pairs non-monotone, λ_min=−1.624 — July 2026
+  d9ce8akjeosc73fg5p40  |  ASK α=0.5  |  ibm_kingston   |  4,096 shots  | VALID — HE_MAX norm, λ_min=+0.0048, R²=0.564 — July 2026
+
+Key results summary:
+  SK_rx: fails on all backends (λ_min < 0, PSD violated despite spatial structure preserved)
+  ASK α=1.7 / d_max: succeeds (λ_min=+0.0038, R²=0.569)
+  ASK α=2.5 / d_max: fails (non-monotone cos^6 regime, λ_min=−1.624)
+  ASK α=0.5 / HE_MAX: succeeds (λ_min=+0.0048, R²=0.564)

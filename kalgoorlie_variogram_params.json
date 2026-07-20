@@ -1,0 +1,25 @@
+{
+  "dataset": "Kalgoorlie Northern Zone Au",
+  "source": "Riversgold Ltd., Western Australia (used with permission)",
+  "n_drillholes": 20,
+  "variable": "log Au (g/t)",
+  "model_type": "spherical",
+  "nugget_C0": 0.015,
+  "partial_sill_C": 0.206,
+  "a_min_m": 28.1,
+  "a_min_azimuth_deg": 0,
+  "a_max_m": 66.0,
+  "a_max_azimuth_deg": 90,
+  "vertical_anisotropy_factor_fV": 0.4,
+  "a_vertical_m": 26.4,
+  "d_max_m": 66.64,
+  "HE_MAX_m": 128.14,
+  "fitting_method": "weighted least squares",
+  "directions_deg": [0, 45, 90, 135],
+  "tolerance_deg": 22.5,
+  "OK_reference": {
+    "lambda_min_KV": 0.021,
+    "LOOCV_R2": 0.608,
+    "RMSE": 0.241
+  }
+}
