@@ -27,10 +27,9 @@ Validation datasets: **Kalgoorlie Northern Zone** gold (n = 20, 3D) and **Seyit�
 sqk-spatial-kernels/
 ├── SpatialQuantumKernels.ipynb   # Main Colab notebook (all experiments)
 ├── requirements.txt              # Python dependencies
-├── data/
-│   ├── kalgoorlie_variogram_params.json   # Fitted variogram parameters
-│   ├── seyitomer_variogram_params.json    # Fitted variogram parameters
-│   └── ibm_quantum_job_ids.txt            # IBM Quantum job IDs
+├── kalgoorlie_variogram_params.json   # Fitted variogram parameters
+├── seyitomer_variogram_params.json    # Fitted variogram parameters
+└── ibm_quantum_job_ids.txt            # IBM Quantum job IDs
 └── README.md
 ```
 
