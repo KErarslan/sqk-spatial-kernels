@@ -97,8 +97,8 @@ Key hardware results:
 Coordinates and log-transformed grades are embedded in the notebook.  
 Data used with permission of Riversgold Ltd. (Riversgold, 2022).
 
-**Seyitömer Aslanlı Lignite** (n = 191 drillholes, seam thickness and calorific value):  
-Data used with permission of Kütahya Şeker Fabrikası A.Ş.  
+**Kütahya Coal Field-Seyitömer town Lignite** (n = 191 drillholes, seam thickness, and calorific value):
+Data used, covering the actual name of the company; just the region name is given.   
 *Note: Raw drill data cannot be shared; fitted variogram parameters are provided in `data/`.*
 
 ---
