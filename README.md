@@ -1,6 +1,6 @@
 # Distance-Encoded Quantum Kernels for Spatial Estimation
 
-**Paper:** Erarslan, K. (2026). Distance-Encoded Quantum Kernels for Spatial Estimation: Design Criteria and NISQ Hardware Characterisation. *Computers & Geosciences* (under review).
+**Paper:** Erarslan, K. (2026). Distance-Encoded Quantum Kernels for Spatial Estimation: Design Criteria and NISQ Hardware Characterisation. 
 
 **Author:** Kaan Erarslan — Department of Mining Engineering, Kütahya Dumlupınar University, Turkey  
 **ORCID:** [0000-0002-1875-4009](https://orcid.org/0000-0002-1875-4009)
