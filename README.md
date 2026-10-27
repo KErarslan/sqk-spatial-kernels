@@ -17,7 +17,10 @@ This repository provides the Python implementation (Google Colab notebook) for t
 | SK_rx | Scalar distance kernel (Euclidean encoding) | IBM (marrakesh, fez, kingston) |
 | ASK | Anisotropic scalar kernel (ellipsoidal h_e encoding) | IBM (kingston) |
 
-Validation datasets: **Kalgoorlie Northern Zone** gold (n = 20, 3D) and **Seyitömer Aslanlı** lignite (n = 191, 2D), differing 85× in spatial scale.
+Validation datasets: **Modified m-Kalgoorlie Northern Zone** gold (n = 20, 3D) and **Kütahya Coal Field-(District name is Seyitömer)** lignite (n = 191, 2D), differing 85× in spatial scale.
+
+Disclaimer
+The drilling data contained in this database has been synthetically generated or modified for scientific/algorithmic purposes—drawing inspiration from the geological parameters of orogenic gold deposits in the m-Kalgoorlie region—and does not represent actual, proprietary mining data from any company operating in the area.
 
 ---
 
