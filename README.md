@@ -1,6 +1,6 @@
-# Distance-Encoded Quantum Kernels for Spatial Estimation
+# Mineral Reserve Assessment via Distance-Encoded Quantum Kernels: Circuit Design Criteria and Noisy Intermediate-Scale Quantum (NISQ) Hardware Validation
 
-**Paper:** Erarslan, K. (2026). Distance-Encoded Quantum Kernels for Spatial Estimation: Design Criteria and NISQ Hardware Characterisation. 
+**Paper:** Erarslan, K. (2026). Mineral Reserve Assessment via Distance-Encoded Quantum Kernels: Circuit Design Criteria and Noisy Intermediate-Scale Quantum (NISQ) Hardware Validation. 
 
 **Author:** Kaan Erarslan — Department of Mining Engineering, Kütahya Dumlupınar University, Turkey  
 **ORCID:** [0000-0002-1875-4009](https://orcid.org/0000-0002-1875-4009)
@@ -122,8 +122,7 @@ See `data/kalgoorlie_variogram_params.json` and `data/seyitomer_variogram_params
 
 ```bibtex
 @article{erarslan2026sqk,
-  title   = {Distance-Encoded Quantum Kernels for Spatial Estimation:
-             Design Criteria and {NISQ} Hardware Characterisation},
+  title   = {Mineral Reserve Assessment via Distance-Encoded Quantum Kernels: Circuit Design Criteria and Noisy Intermediate-Scale Quantum (NISQ) Hardware Validation},
   author  = {Erarslan, Kaan},
   journal = {Computers \& Geosciences},
   year    = {2026},
