@@ -19,10 +19,7 @@ This repository provides the Python implementation (Google Colab notebook) for t
 
 Validation datasets: **Modified m-Kalgoorlie Orogenic Northern gold Zone** (n = 20, 3D) and **Kütahya Coal Field-(briefly Seyitömer-a Kütahya town)** lignite (n = 191, 2D), differing 85× in spatial scale.
 
-Disclaimer
-The drilling data contained in this database has been synthetically generated or modified for scientific/algorithmic purposes—drawing inspiration from the geological parameters of orogenic gold deposits in the m-Kalgoorlie region—and does not represent actual, proprietary mining data from any company operating in the area.
 
----
 
 ## Repository Structure
 
@@ -95,10 +92,10 @@ Key hardware results:
 
 **Kalgoorlie Northern Zone** (n = 20 RC drillholes, Au g/t):  
 Coordinates and log-transformed grades are embedded in the notebook.  
-Data used with permission of Riversgold Ltd. (Riversgold, 2022).
+Data is inspired by the reports of Riversgold Ltd. (Riversgold, 2022).
 
 **Kütahya Coal Field-Seyitömer town Lignite** (n = 191 drillholes, seam thickness, and calorific value):
-Data used, covering the actual name of the company; just the region name is given.   
+Data used, is not covering the actual name of the company; just the region name is given.   
 *Note: Raw drill data cannot be shared; fitted variogram parameters are provided in `data/`.*
 
 ---
